@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body{
+    font-size:16px;
+    line-height: 1.5;
+    color:#f8f2f2;    
+    font-family: 'Roboto', "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic,'Meiryo UI',Meiryo,"ＭＳ ゴシック",Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.outer{
+    padding: 80px 0;
+}
+.text-center{
+    text-align: center;
+}
+.page-title{
+    margin-bottom: 24px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.box{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 640px;
+    margin: 24px auto 64px;
+    font-size: 18px;
+}
+.box-item{
+    margin-bottom: 32px;
+}
+.box-title{
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+}
+
+.form-control{
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #3014af;
+    box-shadow:0 4px 0 #eb0707;
+    margin-left: 8px;
+    padding: 8px 16px;
+    font-size: 18px;
+}
+.result{
+    font-size: 32px;
+}
+
+/* 勝敗 */
+#com{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+/* 結果 */
+.result0{
+
+    font-size: 50px;
+    color: rgb(250, 1, 1);
+}
+
+
+/* 背景画像 */
+body{
+    background-image: url('https://nogamidojo.com/wp-content/uploads/2021/06/DSC_0043.jpg');
+}
+
+
+
